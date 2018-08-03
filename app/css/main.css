@@ -1,0 +1,48 @@
+#logo {
+  font-size: 400%;
+}
+
+.list-group-item {
+  background-color: black;
+  color: gainsboro;
+  border: 1px solid gray;
+
+}
+
+.list-group-item:hover {
+  background-color: gainsboro;
+  color: black;
+  -webkit-box-shadow: 0 0 3px 3px gray;
+  -moz-box-shadow:    0 0 3px 3px gray;
+  box-shadow:         0 0 3px 3px gray;
+}
+
+.text {
+  font-family: "Berlin Sans FB",sans-serif;
+
+  color: darkslateblue;
+}
+
+.col-sm-8 {
+  border: 3px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.display-4 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  padding: 0 40px 0 40px;
+}
+
